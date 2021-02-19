@@ -1,0 +1,5 @@
+build/
+dist/
+elasticdb.egg-info/
+venv/
+.eggs/
