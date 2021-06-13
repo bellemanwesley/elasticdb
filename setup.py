@@ -5,8 +5,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='elasticdb',
-    packages=find_packages(include=['statebasedml']),
-    version='0.0.1',
+    packages=find_packages(include=['elasticdb']),
+    version='0.0.2',
     author='Wesley Belleman',
     author_email="bellemanwesley@gmail.com",
     description="Use Elasticsearch as a database.",
