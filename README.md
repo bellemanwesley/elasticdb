@@ -5,7 +5,7 @@ elasticdb
 
 ##### Table of Contents  
 1. [Overview](#overview)  
-2. [Functions](#functions)  
+2. [Classes](#classes)  
 3. [Configure](#configure)
 4. [Connect](#connect)
 5. [Create](#create)
@@ -26,16 +26,16 @@ Installation instructions
 	python3 -m pip install elasticdb
 
 
-<a name="functions"/>
+<a name="classes"/>
 
 ## Functions
-The statebasedml library has four functions and one class:
-   - `configure`
-   - `connect`: 
-   - `create`: 
-   - `retrieve`: 
-   - `update`: 
-   - `delete`: 
+The statebasedml library has six classes:
+   - `configure` : adjust settings and configuration of your Elasticsearch cluster
+   - `connect`: initiate a secure connection to your Elasticsearch cluster
+   - `create`:  create indeces or items in your Elasticsearch cluster
+   - `retrieve`: get items from your Elasticsearch cluster through query or search
+   - `update`: update indeces or items in your Elasticsearch cluster
+   - `delete`: delete indeces or items in your Elasticsearch cluster
 
 <a name="configure"/>
 
